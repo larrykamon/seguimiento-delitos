@@ -1,0 +1,58 @@
+const listadelitos = [
+    {
+        expedientes_id:1,
+        delitos:[
+            {
+                ofeindis_id:10,
+                delitos_id:8,
+                titulo:'FEMINICIDIO'
+            },
+            {
+                ofeindis_id:11,
+                delitos_id:1,
+                titulo:'HOMICIDIO'
+            },
+            {
+                ofeindis_id:12,
+                delitos_id:41,
+                titulo:'ROBO A CASA HABITACION'
+            }
+        ]
+    },
+    {
+        expedientes_id:2,
+        delitos:[
+            {
+                ofeindis_id:21,
+                delitos_id:9,
+                titulo:'VIOLACIÓN'
+            },
+            {
+                ofeindis_id:22,
+                delitos_id:10,
+                titulo:'ACOSO SEXUAL'
+            }
+        ]
+    },
+    {
+        expedientes_id:3,
+        delitos:[
+            {
+                ofeindis_id:30,
+                delitos_id:11,
+                titulo:'ROBO'
+            },
+            {
+                ofeindis_id:31,
+                delitos_id:12,
+                titulo:'ABIGEATO'
+            },
+            {
+                ofeindis_id:32,
+                delitos_id:13,
+                titulo:'NARCOMENUDEO'
+            }
+        ]
+    }
+];
+export default listadelitos

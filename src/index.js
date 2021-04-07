@@ -4,7 +4,7 @@ import './index.css';
 import {ContenedorPrincipal} from './components/ContenedorPrincipal'
 
 ReactDOM.render(
-  <ContenedorPrincipal/>,
+  <ContenedorPrincipal />,
   document.getElementById('root')
 );
 

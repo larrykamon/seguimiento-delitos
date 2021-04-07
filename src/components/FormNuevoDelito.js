@@ -10,12 +10,17 @@ export const FormNuevoDelito = ({agregarDelito}) => {
     
     const addDelito =(e) =>{
         e.preventDefault();
-        agregarDelito(delito);
+        const nuevodelito = {
+            ofeindis_id: new Date().valueOf(),
+            delitos_id:999, 
+            titulo: delito
+        }
+        agregarDelito(nuevodelito);
         setDelito('');
     }
     return (
         <div className="col-12 border px-md-4 py-md-4 bordered-radius-7">
-            <h6>Escriba el delito</h6>
+            <h6>Escriba el delito para la carpeta</h6>
             <form className="form">
                 <div className="form-group">
                     <input type="text" name="algo" autoComplete="off" value={delito} onChange={handleInputChange} className="form-control"/>                    
