@@ -4,8 +4,6 @@ import { ContenedorDelitos } from './ContenedorDelitos'
 
 
 export const ContenedorPrincipal = () => {
-    
-    console.log('Contenedor principal');
     const [ideditar, setIdeditar] = useState({});
     const setearid = (expediente) =>{
         setIdeditar(expediente);

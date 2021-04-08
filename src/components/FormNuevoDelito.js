@@ -20,7 +20,7 @@ export const FormNuevoDelito = ({agregarDelito}) => {
     }
     return (
         <div className="col-12 border px-md-4 py-md-4 bordered-radius-7">
-            <h6>Escriba el delito para la carpeta</h6>
+            <h6>Escriba el delito que se agregará al listado de delitos</h6>
             <form className="form">
                 <div className="form-group">
                     <input type="text" name="algo" autoComplete="off" value={delito} onChange={handleInputChange} className="form-control"/>                    

@@ -2,7 +2,6 @@ import React,{useState} from 'react';
 import expedientes from './data/expedientes'
 
 export const ContenedorCarpetas = ({setearid}) => {
-    console.log('Contenedor carpetas');
 
     const [numero] = useState(expedientes);
 
