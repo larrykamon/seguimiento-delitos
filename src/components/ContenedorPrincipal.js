@@ -8,6 +8,7 @@ export const ContenedorPrincipal = () => {
     const setearid = (expediente) =>{
         setIdeditar(expediente);
     };
+    
     return (
         <div className="container">
 
