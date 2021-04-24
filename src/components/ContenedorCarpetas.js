@@ -1,10 +1,10 @@
 import React,{useState,useEffect} from 'react';
-import expedientes from './data/expedientes'
+//import expedientes from './data/expedientes'
 import { GetExpedientes } from './data/GetExpedientes';
 
 export const ContenedorCarpetas = ({setearid}) => {
 
-    const [numero] = useState(expedientes);
+    //const [numero] = useState(expedientes);
     const [carp, setCarp] = useState(null);
     const asyncCall = async () => {
         console.log('calling');

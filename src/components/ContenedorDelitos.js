@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from 'react'
-import listadelitos from './data/delitos';
+//import listadelitos from './data/delitos';
 import { FormNuevoDelito } from './FormNuevoDelito';
 import { GetDelitos } from './data/GetDelitos';
 
