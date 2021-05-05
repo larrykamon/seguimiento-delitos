@@ -11,7 +11,6 @@ export const ContenedorCarpetas = ({setearid}) => {
         const result = await GetExpedientes();
         const res = await result.json();
         setCarp(res);
-        // expected output: "resolved"
     }
 
     useEffect(() => {
@@ -26,18 +25,6 @@ export const ContenedorCarpetas = ({setearid}) => {
                 <h4>Listado de carpetas</h4>
                 <div className="d-grid gap-2">
                     
-                    {/*   
-                        numero.map(data=>{
-                            const {id,numero} = data;
-                            return (
-                                <div key={id} className="p-2 bg-light border bordered-radius-5">
-                                    Carpeta: <label className="fw-bold">{numero}</label> 
-                                    <button className="btn btn-outline-secondary float-end" type="button" onClick={()=>setearid(data)}>Actualizar ></button>
-                                </div>
-                            )
-                        })
-                    */}
-
                     {  carp !=null?
                         carp.map(data=>{
                             const {id,numagen,anioagen} = data;

@@ -11,9 +11,9 @@ export const FormNuevoDelito = ({agregarDelito}) => {
     const addDelito =(e) =>{
         e.preventDefault();
         const nuevodelito = {
-            ofeindis_id: new Date().valueOf(),
+            id: new Date().valueOf(),
             delitos_id:999, 
-            titulo: delito
+            delitoreal: delito
         }
         agregarDelito(nuevodelito);
         setDelito('');
