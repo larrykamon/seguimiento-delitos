@@ -35,7 +35,7 @@ export const ContenedorDelitos = ({expediente}) => {
 
             <div className="col border px-md-4 py-md-4 mx-2 bordered-radius-7">
                 { <FormNuevoDelito agregarDelito = {agregarDelito} /> }
-                <h5>Listado de delitos en la carpeta {expediente.numagen}</h5>
+                <h5>Listado de delitos en la carpeta {expediente.nombre}</h5>
                 {loading?'cargando':''}
                 <div className="d-grid gap-2 border px-md-4 py-md-4 bordered-radius-7">
                     

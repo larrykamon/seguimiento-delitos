@@ -27,11 +27,11 @@ export const ContenedorCarpetas = ({setearid}) => {
                     
                     {  carp !=null?
                         carp.map(data=>{
-                            const {id,numagen,anioagen} = data;
+                            const {expediente} = data;
                             return (
-                                <div key={id} className="p-2 bg-light border bordered-radius-5">
-                                    Carpeta: <label className="fw-bold">{numagen}/{anioagen}</label> 
-                                    <button className="btn btn-outline-secondary float-end" type="button" onClick={()=>setearid(data)}>Actualizar</button>
+                                <div key={expediente.id} className="p-2 bg-light border bordered-radius-5">
+                                    Carpeta: <label className="fw-bold">{expediente.nombre}</label> 
+                                    <button className="btn btn-outline-secondary float-end" type="button" onClick={()=>setearid(expediente)}>Actualizar</button>
                                 </div>
                             )
                         })
